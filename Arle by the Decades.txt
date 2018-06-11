@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  background: #000000;
+  color: #008080;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}  
+
+
+/* INTRO SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.intro {
+  background: #00000;
+  padding: 100px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #FFF8DC;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #F45B69;
+}
+
+Arle by the Decades ↓<br />
+
+
+<section class="timeline">
+  <ul>
+<li>
+      <div>
+<time>1970's</time> Learned to identify hand and power tools as the junior partner in a construction firm.  Figured out how to program in BASIC on a Texas Instruments computer.
+      </div>
+</li>
+<li>
+      <div>
+<time>1980's</time> Made it thru high school and college while getting a hands on education in construction and engineering. Discovered the brutal joy of Punk Music.  Learned the agony of printer maintenance with a dot matrix printer and a hammer.  Modified an IBM PC in college to do my bidding. 
+      </div>
+</li>
+<li>
+      <div>
+<time>1990's</time> Bounced between Maryland, New Mexico, and California while learning Non-Profit Management working with the Peace Corps, Homeless Shelters, and Elder Care. Figured out how to build and repair a series of ad hoc computer networks.  Learned what the inside of a CRT looked like I also acquired a lovely wife and darling daughter.
+      </div>
+</li>
+<li>
+      <div>
+<time>2000's</time> Split my time between poverty prevention programs, student loan collections, and child abuse prevention. Learned the joy and pain of computer virus management, figured out how to keep a variety of aged hardware running, and became the guy to ask about that IT stuff. Acquired a handsome son. Was diagnosed as being on the autism spectrum. 
+      </div>
+</li>
+<li>
+      <div>
+<time>2010's</time> Went into the schools, first as a social worker, then a building technologist, and finally as a special education teacher.  Butted head with Databases gone rogue, students and staff abusing software, hardware and content filters, mixed wired and wireless networks running whatever hardware and software was deemed affordable.  Kept a motley collection of Microsoft and Apple laptops, Chromebooks, Chromeboxes, Ipads and Androids running despite the abuse of technophobes and students.  Taught low income special education students reading,  geometry, physics, biology, US history, world history, economics, psychology,and glass blowing. Walked away from the classroom in April of 2018 to focus on all thing technological and all people autistic. 
+      </div>
+</li>
+</ul>
+<div>
+This timeline was composed on a dual boot linux chromebook utilizing crouton with html using the Zed code editor and a modified&nbsp;</div>
+</section>
